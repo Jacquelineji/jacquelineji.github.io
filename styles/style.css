@@ -1146,6 +1146,10 @@ html,body,div,span,applet,object,iframe,p,blockquote,pre,a,abbr,acronym,address,
 .contact-link{
   font-weight: 600 !important;
 }
+.email-link{
+  color: var(--black);
+  font-weight: 600 !important;
+}
 
 .outro p:first-child{
   font-weight: bold;
