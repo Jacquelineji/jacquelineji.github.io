@@ -594,17 +594,18 @@ p, h3, h5, h6{
 .catchphrase{
   font-family: "DM Serif Display", serif;
   font-size: 72px;
-
   color: var(--black);
-  margin-top: 15vh; /* head text distance to top*/
+  margin-top: 15vh; 
   line-height: 84px;
 }
 
 
 .catchphrase-2{
-  font-size: 28px;
-  font-weight: 600;
-  color: var(--black);
+  /* margin-top: 15vh; */
+  font-size:24px;
+  /* font-weight: 600; */
+  color: var(--black02);
+
 }
 
 .jp-bk{
@@ -615,9 +616,12 @@ p, h3, h5, h6{
 }
 
 .intro{
-  font-size: 18px;
+  font-size: 20px;
   color: var(--black02);
   margin-top: 1vh;
+  font-weight: 600;
+  margin-top: 2vh;
+
 }
 
 .company{
@@ -1198,6 +1202,8 @@ html,body,div,span,applet,object,iframe,p,blockquote,pre,a,abbr,acronym,address,
   /* text-transform:uppercase; */
   /* font-weight:900; */
 }
+
+
 
 
 .gradient-text:hover{
