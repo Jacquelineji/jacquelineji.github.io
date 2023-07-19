@@ -10,6 +10,7 @@ let iconToggle = document.querySelector("icon-toggle");
 
 
 
+
 navToggle.addEventListener("click", function () {
   if (navWrapper.classList.contains("active")) {
     this.setAttribute("aria-expanded", "false");
@@ -28,62 +29,20 @@ navToggle.addEventListener("click", function () {
   }
 });
 
-// animate - jac
 
-document.querySelector('body')
-    .addEventListener('mousemove', eyeball);
-    
-    
-    function eyeball(event){
-      var eye = document.querySelectorAll('.eye');
-      var mouseX = event.clientX;
-       var mouseY = event.clientY;
 
-     
-      eye.forEach(function(eye){
-        let x = (eye.getBoundingClientRect().left) + (eye.clientWidth / 2);
-        let y = (eye.getBoundingClientRect().top) + (eye.clientHeight / 2);
-       
 
-        if (mouseX <= x ){
-          if (mouseY <= y ){
-          eye.style.transform = "translate(-2px,-2px)";
 
-}else{
-  eye.style.transform = "translate(-2px,2px)";
+// scroll button 
+
+var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+var rootElement = document.documentElement;
+
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
 }
-
-}else{
-  if (mouseY <= y ){
-          eye.style.transform = "translate(0,-2px)";
-
-}else{
-  eye.style.transform = "translate(0,2px)";
-}
-
-}
-
-
-      })
-    }
-
-
-// hide emoji
-
-let face = document.querySelector(".face");
-let snowflakes = document.querySelector(".snowflakes");
-
-
-snowflakes.style.visibility = "hidden";
-
-face.addEventListener('mouseenter', e => {
-  snowflakes.style.visibility = "visible";
-});
-
-face.addEventListener('mouseleave', e => {
-  snowflakes.style.visibility = "hidden";
-});
-
-
-
-
+scrollToTopBtn.addEventListener("click", scrollToTop);
