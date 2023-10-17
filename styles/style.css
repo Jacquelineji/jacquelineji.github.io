@@ -7,6 +7,7 @@
 
 
 
+
 /* color */
 
   :root{
@@ -92,6 +93,39 @@ h5{
 
 /* website level end*/
 
+
+/* navigation */
+.back_btn{
+  margin-top: 2.8em;
+  position: fixed;
+  z-index: 99;
+
+}
+.back_btn a{
+
+  background-color: white;
+  padding: 15px 14px;
+  color: black;
+  cursor: pointer;
+  /* font-size: 18px; */
+  /* line-height: 48px; */
+  /* width: 48px; */
+  border:2px solid #00000001;
+  border-radius: 100px;
+  transition: box-shadow 0.2s ease;
+  text-decoration: none;
+  box-shadow: 6px 6px 16px rgba(0,0,0,0.15);
+  
+
+
+}
+
+.back_btn a:hover{
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  /* background-color: var(--greyHover); */
+  color: black;
+}
+
 /* project level */
 
 /* project - scroll button */
@@ -106,7 +140,7 @@ h5{
   line-height: 48px;
   width: 48px;
   border-radius: 100%;
-  transition: box-shadow 0.2s ease;
+  /* transition: box-shadow 0.2s ease; */
 
 }
 
@@ -114,7 +148,7 @@ h5{
   outline: none;
 }
 #scrollToTopBtn:hover{
-  box-shadow: 1px 2px 8px rgba(0,0,0,0.3);
+  /* box-shadow: 1px 2px 8px rgba(0,0,0,0.3); */
   background-color: var(--black);
 
 }
@@ -164,9 +198,10 @@ h5{
 
 .sm-icon{
  
-  font-size: 18px !important;
+  font-size: 24px !important;
+
   vertical-align: middle;
-  margin-bottom: 2px;
+  /* margin-bottom: 2px; */
 
 }
 
@@ -339,20 +374,6 @@ h5{
   @media (max-width: 659px) {
 
   
-  
-
-    /* .face::before{
-      display: block;
-    }
-     */
-  
-  
-  
-
-
-    .container{
-      padding-top: 8vh !important;
-    }
 
     #my-nav{
 
@@ -837,6 +858,10 @@ span{
   margin-top: 8em;
 }
 
+.back_btn{
+  margin-top: -6em;
+}
+
 
 
 
@@ -1097,7 +1122,7 @@ a:hover{
 
   /* internship */
   .internship-img{
-    /* margin-top: 16vh; */
+    margin-top: 7.2em;
     margin-bottom: 8vh;
     border-radius: 24px;
   }
