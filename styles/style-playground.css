@@ -107,6 +107,7 @@ h5{
 
 .site-header__middle{
   background-color: rgba(0, 0, 0, 0.3) ;
+  -webkit-backdrop-filter: blur(8px); 
   backdrop-filter: blur(8px);
   /* border-radius: 1000px;
   padding: 0px 8px; */
@@ -1077,6 +1078,7 @@ span{
 
 .hover-5:hover #p1, .hover-5:hover #p2, .hover-5:hover #p3, .hover-5:hover #p4 {
   background: rgb(255, 255, 255, 50%); /*OVERLAY-COLOUR*/
+  -webkit-backdrop-filter: blur(30px); 
   backdrop-filter: blur(30px);
 }
 
