@@ -628,6 +628,10 @@ span{
 
 
 
+.uber-link{
+  color: inherit;
+}
+
 .hover {
   transition: all 0.2s ease-in-out;
 } 
