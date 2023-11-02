@@ -738,16 +738,20 @@ span{
   background: #2d2c2c;
   /* border: 0.3px solid; */
   /* border-color: #ffffff32; */
+  box-shadow: 2px 2px 32px #00000060 ;
   border-radius: 16px  ;
+  outline: 6px solid #00000000;
 }
 
 .card:hover{
-
-  background: linear-gradient(32deg, #0800ff50, #ff00801b, #0040ff50);
+   background: #242424;
+  /* background: linear-gradient(32deg, rgba(75, 75, 75, 0.314), #4342431b, #2b2b2b50); */
   animation: gradient 12s ease infinite; 
   background-size: 400% 400%;
-  box-shadow: 2px 2px 32px #00000080 ;
+  box-shadow: 2px 2px 16px #00000010 ;
   transition: all 0.3s ease-in;
+  outline: 3px solid #cecece20;
+
 
 }
 

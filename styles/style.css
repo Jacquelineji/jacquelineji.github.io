@@ -132,13 +132,13 @@ h5{
 #scrollToTopBtn {
 
 
-   background-color: black;
+   background-color: white;
   border: none;
-  color: white;
+  color: var(--black02);
   cursor: pointer;
   font-size: 18px;
   line-height: 48px;
-  width: 48px;
+  /* width: 48px; */
   border-radius: 100%;
   /* transition: box-shadow 0.2s ease; */
 
@@ -148,8 +148,7 @@ h5{
   outline: none;
 }
 #scrollToTopBtn:hover{
-  /* box-shadow: 1px 2px 8px rgba(0,0,0,0.3); */
-  background-color: var(--black);
+font-weight: 500;
 
 }
 
