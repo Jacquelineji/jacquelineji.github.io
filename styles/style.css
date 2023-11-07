@@ -80,10 +80,6 @@ h5{
 
 
 
-.my-container{ 
-  padding-top: 8vh;
-}
-
 
 
 .design-container{
@@ -1286,7 +1282,7 @@ a:hover{
 .h3-project, .h3-21, .h3-didi, .h3-pear{
 
   /* font-weight: 700 !important; */
-  margin-top: 6em;
+  margin-top: 4em;
   margin-bottom: 1em;
 
 }
@@ -1382,10 +1378,9 @@ a:hover{
 }
 
 
-.problem p{
+.problem-card p{
   font-size: 18px;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  padding: 12px 20px 12px 20px;
 
 }
 
